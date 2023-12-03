@@ -910,6 +910,7 @@
     /* footer */
     .footer_info_block {
         gap: 5.61vw;
+        order: 1;
     }
 
     .footer_container_content {
@@ -931,7 +932,7 @@
         width: 82.24vw;
     }
 
-    .footer_subscribe_block h5 {
+    label {
         font-size: 14px;
         font-weight: 400;
         max-width: 221px;
@@ -941,10 +942,6 @@
     .footer_navigation_top {
         order: 1;
         gap: 37px;
-    }
-
-    .footer_info_block {
-        order: 1;
     }
 
     .subscribe_form {
